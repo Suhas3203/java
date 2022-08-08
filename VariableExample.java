@@ -17,5 +17,7 @@ public class VariableExample {
 		System.out.println(suhasDeshmukh.assessment4);
 		
 		System.out.println(Learners.companyName);
+		
+		System.out.println(suhasDeshmukh instanceof Learners);		//instanceof operator defines variable is in which class and given location is true or false 
 	}
 }

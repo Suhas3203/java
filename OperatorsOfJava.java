@@ -45,6 +45,10 @@ public class OperatorsOfJava {
 		System.out.println(markOfExam > tempOfBody || tempOfBody>0);	//OR operator - Any one condition should be true
 		
 		System.out.println("-----------------------------------------");
+		
+		System.out.println(markOfExam);
+		System.out.println(tempOfBody);
+		System.out.println("--------");
 		//bitwise operator
 		//markOfExam=23  & tempOfBody=-11
 		System.out.println(markOfExam & tempOfBody);	//in bitwise AND operator work between binary code of value 0 is false also 1 is true
@@ -63,7 +67,7 @@ public class OperatorsOfJava {
 		byte numb2 = 25;
 		System.out.println(numb1& numb2);
 		
-		System.out.println("-----------------------------------------");
+		
 		
 		System.out.println("-----------------------------------------");
 		//markOfExam=23  & tempOfBody=-11
@@ -74,6 +78,46 @@ public class OperatorsOfJava {
 		tempOfBody=tempOfBody +47;			
 		System.out.println(tempOfBody);		//tempOfBody=36
 		System.out.println(tempOfBody*=2);	//tempOfBody=72
+		
+		System.out.println("-----------------------------------------");
+		System.out.println(markOfExam==49);		//relational (is equal to)
+		
+		System.out.println(tempOfBody!=70);     //relational (is not equal to)
+		
+		System.out.println(markOfExam < 20);	//relational (is less than)
+		System.out.println(tempOfBody > 20);	//relational (is greater than)
+		
+		System.out.println(markOfExam <= 40);          // relational (is less than equal to)
+		System.out.println(tempOfBody >= 70);          // relational (is greater than equal to)
+		
+		System.out.println("-----------------------------------------");
+		
+		System.out.println(markOfExam << 2);		//signed left shift
+		System.out.println(markOfExam >> 2);		//signed right shift
+		System.out.println(markOfExam >>> 2);		//Unsigned right shift
+		System.out.println(tempOfBody >>> 2);		//Unsigned right shift
+		
+		System.out.println("-----------------------------------------");
+		
+		System.out.println(markOfExam==50 ? "I'm True":"I'm False");		//Ternary operator used for False condition
+		System.out.println(tempOfBody==72 ? tempOfBody+markOfExam:tempOfBody-markOfExam);	//Ternary operator used for True condition
+		
+		System.out.println("-----------------------------------------");
+		
+		System.out.println("This is Math equation for Practice : "+(markOfExam*tempOfBody));		//first string and second math equation considered
+		
+		System.out.println(markOfExam+tempOfBody*tempOfBody-tempOfBody/markOfExam);					//Uses BODMAS for math equation
+		
+		System.out.println("Equation by BODMAS rule:"+(markOfExam+tempOfBody*tempOfBody-tempOfBody/markOfExam));		//first string and second math equation considered
+		
+		System.out.println("-----------------------------------------");
+		int moNum= 86685;
+		int moNum1=48311;
+		
+		System.out.println("Hey...This is my number :" + moNum+ moNum1);  //whole line will work as string including number
+		
+		System.out.println("-----------------------------------------");
+		System.out.println("Hii..." +"I've completed this types " +"of Operators with " +"required comments.");
 		
 		
 	}
